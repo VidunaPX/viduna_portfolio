@@ -4,6 +4,7 @@ import Particles from "../components/Particles";
 import WhoAmI from "../components/WhoAmI";
 import MyGoals from "../components/MyGoals";
 import RecentProjects from "../components/RecentProjects";
+import ContactMe from "../components/ContactMe";
 
 
 
@@ -125,6 +126,21 @@ export default function Home() {
         />
       </div>
       <RecentProjects />
+      </section>
+      <section>
+        <div>
+            <Particles
+                particleColors={['#ffffff', '#ffffff']}
+                particleCount={200}
+                particleSpread={10}
+                speed={0.1}
+                particleBaseSize={100}
+                moveParticlesOnHover={true}
+                alphaParticles={false}
+                disableRotation={false}
+        />
+      </div>
+      <ContactMe />
       </section>
       
     </div>

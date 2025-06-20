@@ -13,6 +13,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  transform: translate(0%, -10%);
 }
 
 .mygoals-stack {

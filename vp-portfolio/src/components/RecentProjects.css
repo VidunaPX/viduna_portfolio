@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   min-height: 120vh;
-
 }
 
 .recent-projects-container {
@@ -13,7 +12,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  transform: translate(-33%);
+  transform: translate(-29%, -10%);
 }
 
 .recent-projects-box {
