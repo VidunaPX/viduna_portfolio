@@ -18,11 +18,10 @@ export default function WhoAmI() {
           <ProfileCard
             name="Viduna Pilanavithanage"
             title="Aspiring Robotics Engineer"
-            handle="viduna.codes"
+            handle="vidunap"
             status="Available"
             contactText="Reach Out"
-            avatarUrl="/images/profile.jpg" // replace with your actual path
-            miniAvatarUrl="/images/profile.jpg"
+            avatarUrl="/profile.jpg" 
             showUserInfo={true}
             enableTilt={true}
             onContactClick={() => console.log("Contact button clicked")}

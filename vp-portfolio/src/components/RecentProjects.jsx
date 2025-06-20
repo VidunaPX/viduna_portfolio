@@ -4,22 +4,22 @@ import ChromaGrid from "./ChromaGrid";
 
 const items = [
   {
-    image: "https://i.pravatar.cc/300?img=1",
-    title: "Sarah Johnson",
-    subtitle: "Frontend Developer",
-    handle: "@sarahjohnson",
+    image: "/IBpic.jpg",
+    title: "HAIS: Highschool AI System",
+    subtitle: "AI model for IB students",
+    handle: "#hais",
     borderColor: "#00FFFF",
     gradient: "linear-gradient(145deg,rgb(1, 114, 114), #000)",
-    url: "https://github.com/sarahjohnson"
+    url: "https://github.com/VidunaPX"
   },
   {
-    image: "https://i.pravatar.cc/300?img=2",
-    title: "Mike Chen",
-    subtitle: "Backend Engineer",
-    handle: "@mikechen",
+    image: "/securitysystem.jpg",
+    title: "Security System",
+    subtitle: "Smart camera and alert system",
+    handle: "#security",
     borderColor: "#FF00FF",
     gradient: "linear-gradient(180deg,rgb(114, 2, 114), #000)",
-    url: "https://linkedin.com/in/mikechen"
+    url: "https://github.com/VidunaPX"
   }
 ] 
 

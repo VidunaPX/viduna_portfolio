@@ -5,6 +5,9 @@ import WhoAmI from "../components/WhoAmI";
 import MyGoals from "../components/MyGoals";
 import RecentProjects from "../components/RecentProjects";
 import ContactMe from "../components/ContactMe";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
 
 
 
@@ -13,8 +16,11 @@ export default function Home() {
     console.log("Animation completed!");
   };
 
+
   return (
     <div className="relative min-h-screen overflow-hidden">
+      <Navbar />
+      
       {/* Hero Banner */}
       <header style={{ width: "100%", height: "625px", position: "relative" }}>
         <Orb
@@ -141,6 +147,10 @@ export default function Home() {
         />
       </div>
       <ContactMe />
+      </section>
+
+      <section>
+      <Footer />
       </section>
       
     </div>
