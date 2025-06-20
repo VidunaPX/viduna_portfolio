@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0e0e0e;
+  color: white;
+}
+
+.hero-text {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  user-select: none;
+}
+
+.whoami-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  position: relative;
+  z-index: 1;
+  min-height: 90vh;
+}
+
+.whoami-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.whoami-card {
+  max-width: 500px;
+  min-height: 475px;
+  left:2.3%;
+  padding: 24px;
+  background: #000;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  z-index: 1;
+  box-shadow:
+    -8px -8px 20px rgba(255, 0, 255, 0.5), /* cyan top-left */
+    8px 8px 20px rgba(0, 255, 255, 0.4);   /* magenta bottom-right */
+  backdrop-filter: blur(8px);
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow:
+      -8px -8px 20px rgba(0, 255, 255, 0.5),
+      8px 8px 20px rgba(255, 0, 255, 0.4);
+  }
+  50% {
+    box-shadow:
+      -8px -8px 30px rgba(0, 255, 255, 0.8),
+      8px 8px 30px rgba(255, 0, 255, 0.6);
+  }
+}
+
+.whoami-card {
+  animation: glow-pulse 5s ease-in-out infinite;
+}
+
+
+.whoami-profile {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
