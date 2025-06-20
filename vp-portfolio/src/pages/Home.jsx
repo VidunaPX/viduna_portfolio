@@ -2,6 +2,7 @@ import Orb from "../components/Orb";
 import BlurText from "../components/BlurText";
 import Particles from "../components/Particles";
 import WhoAmI from "../components/WhoAmI";
+import MyGoals from "../components/MyGoals";
 
 
 
@@ -93,6 +94,21 @@ export default function Home() {
         />
         </div>
         <WhoAmI />
+     </section>
+     <section>
+        <div>
+            <Particles
+                particleColors={['#ffffff', '#ffffff']}
+                particleCount={200}
+                particleSpread={10}
+                speed={0.1}
+                particleBaseSize={100}
+                moveParticlesOnHover={true}
+                alphaParticles={false}
+                disableRotation={false}
+        />
+        </div>
+        <MyGoals />
      </section>
      <section>
         <div>
