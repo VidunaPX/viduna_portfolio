@@ -1,9 +1,9 @@
 .mygoals-section {
-  padding: 3px 20px;
+  padding: 1px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 60vh;
 
 }
 

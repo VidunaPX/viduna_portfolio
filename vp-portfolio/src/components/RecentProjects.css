@@ -1,0 +1,99 @@
+.recent-projects-section {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh;
+
+}
+
+.recent-projects-container {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-33%);
+}
+
+.recent-projects-box {
+  flex: 1;
+  max-width: 400px;
+  height: 475px;
+  padding: 24px 32px;
+  border-radius: 24px;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  backdrop-filter: blur(20px);
+  position: relative;
+  z-index: 1;
+  box-shadow:
+    -8px -8px 20px rgba(0, 255, 255, 0.5),   /* Cyan (bottom-right) */
+    8px 8px 20px rgba(255, 0, 255, 0.4); /* Magenta (top-left) */
+  transition: box-shadow 0.3s ease-in-out;
+  font-size: 1.4rem;
+  animation: proj-float-glow-alt 5s ease-in-out infinite;
+  
+}
+
+.recent-projects-box h2 {
+  font-size: 1.4em;
+  margin-bottom: 12px;
+  background: linear-gradient(to bottom, #fff, #a5f3fc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.recent-projects-box p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  
+}
+
+.recent-projects-display {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes proj-float-glow-alt {
+  0% {
+    transform: translateY(0px) scale(1);
+    box-shadow:
+      -8px -8px 20px rgba(0, 255, 255, 0.5),
+      8px 8px 20px rgba(255, 0, 255, 0.4);
+  }
+  50% {
+    transform: translateY(-6px) scale(1.01);
+    box-shadow:
+      -10px -10px 24px rgba(0, 255, 255, 0.7),
+      10px 10px 24px rgba(255, 0, 255, 0.5);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+    box-shadow:
+      -8px -8px 20px rgba(0, 255, 255, 0.5),
+      8px 8px 20px rgba(255, 0, 255, 0.4);
+  }
+}
+
+.see-more-btn {
+  margin-top: 20px;
+  padding: 10px 24px;
+  background: linear-gradient(135deg, cyan, magenta);
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.3), 0 0 12px rgba(255, 0, 255, 0.3);
+}
+
+.see-more-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.6), 0 0 20px rgba(255, 0, 255, 0.6);
+}

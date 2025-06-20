@@ -3,6 +3,7 @@ import BlurText from "../components/BlurText";
 import Particles from "../components/Particles";
 import WhoAmI from "../components/WhoAmI";
 import MyGoals from "../components/MyGoals";
+import RecentProjects from "../components/RecentProjects";
 
 
 
@@ -123,6 +124,7 @@ export default function Home() {
                 disableRotation={false}
         />
       </div>
+      <RecentProjects />
       </section>
       
     </div>
