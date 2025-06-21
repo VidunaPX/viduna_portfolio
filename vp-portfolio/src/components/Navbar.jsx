@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">Viduna | Portfolio</div>
       <ul className="navbar-links">
-        <li><a href="vp-portfolio/src/pages/Home.jsx">Home</a></li>
+        <li><a href="#Home">Home</a></li>
         <li><a href="#Skills/Hobbies">Skills/Hobbies</a></li>
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#Achievements">Achievements</a></li>
