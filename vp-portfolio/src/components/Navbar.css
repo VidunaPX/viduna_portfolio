@@ -28,16 +28,20 @@
   list-style: none;
   display: flex;
   gap: 20px;
-  transform: translate(-10%, -50%);
-}
-
-.navbar-links li a {
+  transform: translate(-10%, -120%);
   text-decoration: none;
-  color: white;
-  font-weight: 500;
-  transition: color 0.3s ease;
+  color: rgb(250, 250, 250);
+  font: 500 1.2rem 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
-.navbar-links li a:hover {
-  color: rgb(207, 0, 207);
+/* Hover colors */
+.home-link:hover {
+  color: cyan;
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+.interests-link:hover {
+  color: magenta;
+  background-color: rgba(255, 0, 255, 0.1);
 }
