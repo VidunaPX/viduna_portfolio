@@ -3,7 +3,8 @@ import Hyperspeed from "../components/Hyperspeed";
 import Navbar from "../components/Navbar";
 import BlurText from "../components/BlurText";
 import Particles from "../components/Particles";
-
+import CodingSkills from "../components/CodingSkills";
+import Activities from "../components/Activities"; // Assuming you have a component for activities
 
 
 
@@ -102,7 +103,7 @@ export default function Home() {
             height: '5px',
             background: 'linear-gradient(to right,rgba(255, 0, 255, 0.27),rgba(43, 43, 43, 0.67),rgba(0, 255, 255, 0.27))',
             zIndex: 20
-           }} />
+       }} />
       </header>
       <section>
         <div>
@@ -117,6 +118,22 @@ export default function Home() {
                 disableRotation={false}
         />
         </div>
+        <CodingSkills />
+      </section>
+      <section>
+        <div>
+            <Particles
+                particleColors={['#ffffff', '#ffffff']}
+                particleCount={200}
+                particleSpread={10}
+                speed={0.1}
+                particleBaseSize={100}
+                moveParticlesOnHover={true}
+                alphaParticles={false}
+                disableRotation={false}
+        />
+        </div>
+        <Activities />
       </section>
     </div>
   );
