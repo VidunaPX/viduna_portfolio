@@ -1,26 +1,56 @@
 import React from "react";
 import "./Activities.css";
 import Stack from "./Stack"; 
+import InfiniteMenu from "./InfiniteMenu"; 
 
 export default function CodingSkills() {
   const images = [
     {
       id: 1,
-      img: "/goals4.jpg",
+      img: "/beach.jpg",
     },
     {
       id: 2,
-      img: "/goals3.jpg",
+      img: "/pc.jpg",
     },
     {
       id: 3,
-      img: "/goals2.jpg",
+      img: "/coding.jpg",
     },
     {
       id: 4,
-      img: "/goals1.jpg",
+      img: "/volleyball.jpg",
     },
   ];
+
+  const items = [
+    {
+      image: '/guitar.PNG',
+      link: '',
+      title: 'Guitar',
+      description: ''
+    },
+    {
+      image: '/transformers.jpg',
+      link: '',
+      title: 'Favourite Movie',
+      description: ''
+    },
+    {
+      image: '/academic.png',
+      link: '',
+      title: 'Dark Academia Vibes',
+      description: ''
+    },
+    {
+      image: '/blackcar.jpg',
+      link: '',
+      title: 'Vintage Cars',
+      description: ''
+    }
+  ];
+
+
   return (
     <section className="activities-section">
       <div className="activities-container">
@@ -42,9 +72,11 @@ export default function CodingSkills() {
           cardsData={images}
         />
         </div>
-
-            
       </div>
+      <div style={{ height: '600px', position: 'relative' }}>
+        <InfiniteMenu items={items}/>
+      </div>
+
     </section>
   );
 }

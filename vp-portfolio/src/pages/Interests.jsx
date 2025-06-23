@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import BlurText from "../components/BlurText";
 import Particles from "../components/Particles";
 import CodingSkills from "../components/CodingSkills";
-import Activities from "../components/Activities"; // Assuming you have a component for activities
+import Activities from "../components/Activities"; 
 
 
 

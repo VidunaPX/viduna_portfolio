@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.18.1",
+    "gl-matrix": "^3.4.3",
     "gsap": "^3.13.0",
     "motion": "^12.18.1",
     "ogl": "^1.0.11",
